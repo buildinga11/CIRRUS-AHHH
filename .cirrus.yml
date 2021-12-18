@@ -1,6 +1,6 @@
 env:
-    MANIFEST: git://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-11
-    DT_LINK: https://github.com/SmallPP420/Testing-android-11 -b encryption-test
+    MANIFEST: git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-10.0-deprecated
+    DT_LINK: https://github.com/SmallPP420/test10 -b main
     DEVICE: WSP_sprout
     OEM: hmd
     DT_PATH: device/$OEM/$DEVICE
