@@ -74,8 +74,6 @@ task:
       - ccache -M 50G
       - mkdir -p '.repo/local_manifests'
       - . build/envsetup.sh
-      - mkdir -p out/target/product/WSP_sprout
-      - cp device/hmd/WSP_sprout/prebuilt/dtb.img out/target/product/WSP_sprout/dtb.img
       - lunch omni_$DEVICE-eng
       - mka -j31 $TARGET
       - echo "Alhamdulillah"
