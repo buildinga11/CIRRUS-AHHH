@@ -1,12 +1,12 @@
 env:
     MANIFEST: git://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-11
-    DT_LINK: https://github.com/SmallPP420/MORE-A11-TESTING-YAY -b main
+    DT_LINK: https://github.com/SmallPP420/Testing-android-11 -b encryption-test
     DEVICE: WSP_sprout
     OEM: hmd
     DT_PATH: device/$OEM/$DEVICE
-    TARGET: bootimage
+    TARGET: recoveryimage
     EXTRA_CMD: git clone https://github.com/OrangeFoxRecovery/Avatar.git misc
-    OUTPUT: Boot.img 
+    OUTPUT: recovery.img 
 
 task:
   name: "Setting Up, Syncing, Building and Uploading..."
