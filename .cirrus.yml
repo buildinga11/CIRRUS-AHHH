@@ -76,7 +76,7 @@ task:
       - . build/envsetup.sh
       - mkdir -p out/target/product/WSP_sprout
       - cp device/hmd/WSP_sprout/prebuilt/dtb out/target/product/WSP_sprout/dtb.img
-      - lunch twrp_$DEVICE-eng
+      - lunch omni_$DEVICE-eng
       - mka -j31 $TARGET
       - echo "Alhamdulillah"
      
